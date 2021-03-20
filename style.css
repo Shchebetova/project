@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #533738;
+    background: #F6EDE9;
+}
+
+a {
+    text-decoration: none;
+    color: #533738;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    width: 1400px;
+    background-image: url(img/main-img.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 715px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1036px;
+}
+
+nav {
+    padding-top: 38px;
+    display: flex;
+}
+
+.logo {
+    right: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-grow: 1;
+    padding-left: 38px;
+}
+
+.menu_link, .logo_link {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.slogan {
+    font-size: 50px;
+    line-height: 62px;
+    width: 534px;
+    padding-top: 94px;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.header_text {
+    padding-top: 24px;
+    padding-bottom: 21px;
+    width: 465px;
+}
+
+.button {
+    padding: 25px 67px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 75px;
+    background: #CC8B86;
+}
+
+.about-us {
+    height: 641px;
+    
+}
+
+.heading {
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 40px;
+}
+
+.about-us_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us_text {
+    width: 526px;
+}
+
+.about-us_text p {
+    padding-bottom: 30px;
+}
+
+.advantages {
+    background: #8D7370;
+    width: 1400px;
+    margin: 0 auto;
+    height: 273px;
+}
+
+.advantages_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantages_numbers {
+    font-size: 50px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.advantages_text {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.heading_left {
+    text-align: left;
+}
+
+.projects_photo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project_link {
+    margin-bottom: 30px;
+}
+
+.project_link:first-child {
+    margin-right: 20px;
+    position: relative;
+}
+
+.project_link:last-child {
+    margin-left: 20px;
+}
+
+.hover_info {
+    display: none;
+    background: rgba(100, 72, 69, 0.8);
+    position: absolute;
+    padding: 86px 35px 0;
+    height: 100%;
+}
+
+.project_header {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 65%;
+    margin: auto;
+}
+
+.project_text {
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding-top: 16px;
+}
+
+.project_link:hover .hover_info {
+    display: block;
+}
+
+.see_more {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    display: inherit;
+}
+
+.see_more::after {
+    content: url(img/Arrow-3.svg);
+    padding-left: 10px;
+}
+
+.team {
+    background: #E2C4BA;
+    width: 1400px;
+    margin: 65px auto 0;
+}
+
+.team_heading {
+    padding-top: 50px;
+}
+
+.team_cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team_card {
+    width: 320px;
+}
+
+.team_photo {
+    padding-bottom: 10px;
+}
+
+.team_heading_bottom {
+    padding-top: 35px;
+}
+
+.order_points {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.order_point {
+    width: 285px;
+    text-align: center;
+}
+
+.point {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 70px;
+    color: #FFFFFF;
+    background: #8D7370;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin: 0 auto 20px;
+}
+
+.reviews_carousel {
+    display: flex;
+    align-items: center;
+}
+
+.arrow_link:first-child {
+    padding-right: 29px;
+}
+
+.arrow_link:last-child {
+    padding-left: 29px;
+}
+
+.arrow {
+    width: 72px;
+    padding: 28px 20px;
+    background: #CC8B86;
+    border-radius: 50%;
+}
+
+.arrow:hover {
+    box-shadow: 0 0 10px #cc8b86;
+}
+
+.review {
+    padding-right: 20px;
+}
+
+.review .text {
+    padding-bottom: 30px;
+}
+
+.review_photos img{
+    margin-bottom: 17px;
+}
+
+.footer_apply {
+    background: #8D7370;
+    width: 1400px;
+    height: 624px;
+    margin: 58px auto 0;
+    display: flex;
+}
+
+.apply {
+    padding-left: 182px;
+    padding-right: 10px;
+    width: 50%;
+}
+
+.map {
+    padding-right: 100px;
+    padding-left: 10px;
+    width: 50%;
+    border: none;
+}
+
+.apply_heading {
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 24px;
+    color: #FFFFFF;
+}
+
+.apply_text {
+    color: #FFFFFF;
+    opacity: 0.6;
+    padding-bottom: 40px;
+}
+
+.apply_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.name_field, .tel_field {
+    height: 38px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    opacity: 0.6;
+    background: #8D7370;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    color: #F6EDE9;
+}
+
+.name_field::placeholder, 
+.tel_field::placeholder {
+    color: #F6EDE9;
+}
+
+.apply_button {
+    padding: 0 67px;
+    background: #CC8B86;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 74px;
+    color: #533738;
+    border: none;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.contacts {
+    display: flex;
+    padding: 37px 0;
+}
+
+.contacts_tel {
+    padding-right: 42px;
+}
+
+.contacts_name {
+    align-items: flex-end;
+    margin-left: auto;
+}
+
+.button:hover,
+.apply_button:hover {
+    box-shadow: 0 0 10px #cc8b86;
+    color: #FFFFFF;
+}
+
+.menu_link:hover {
+    color: #CC8B86;
+}
+
+#apply-field {
+    transition: transform (0.6s);
+}
+546
